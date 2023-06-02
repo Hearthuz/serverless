@@ -2,7 +2,7 @@
 
 **Create a VPC**
 
-<img src="images/createVPC.png">
+<img src="public/images/createVPC.png">
 
 - create a vpc to have subnet
 
@@ -11,17 +11,17 @@
 - allow Publicly accessible
 - connect VPC
 
-<img src="images/createRDS.png">
+<img src="public/images/createRDS.png">
 
 **Create lambda in AWS**
 
 - create and setting postgresql Database
 
-<img src="images/createLambda.png">
+<img src="public/images/createLambda.png">
 
 - config env for lambda function to connect to RDS database
 
-- <img src="images/createEnv.png">
+- <img src="public/images/createEnv.png">
 
 - connect lambda with VPC
 
@@ -31,14 +31,14 @@
 
 **Create API Gate Way**
 
-<img src="images/createAPIGateWay.png">
+<img src="public/images/createAPIGateWay.png">
 
 - create post function
 - connect to lambda function in aws
 
 **Create security group**
 
-<img src="images/createSecurityGroup">
+<img src="public/images/createSecurityGroup">
 
 - edit security group to expose to any ware
 - using security group in subnet
