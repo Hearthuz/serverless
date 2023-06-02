@@ -31,14 +31,14 @@
 
 **Create API Gate Way**
 
-<img src="public/images/createAPIGateWay.png">
+<img src="public/images/createAPIGateway.png">
 
 - create post function
 - connect to lambda function in aws
 
 **Create security group**
 
-<img src="public/images/createSecurityGroup">
+<img src="public/images/createSecurityGroup.png">
 
 - edit security group to expose to any ware
 - using security group in subnet
